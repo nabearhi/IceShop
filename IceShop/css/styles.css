@@ -12,15 +12,9 @@
     padding: 0;
     font-family: sans-serif;
 }
-body{
-    background-color: var(--color-background);
-    color: var(--color-text-dark);
-}
-
-
 /* datos de nuestro banner principal */
 .hero-banner{
-    background-image: url('img/logo5.jpg');
+    background-image: url('../img/logo6.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -30,3 +24,62 @@ body{
     color: rgb(249, 249, 249);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
+
+/* sección para los productos */
+.featured-products {
+    padding: 40px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-products h2 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: var(--color-primary);
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-text-light);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #cc7a00;
+}
+.fondo{
+    text-align: center;
+    background-color: #a4e3a4;
+}
+
+/* FOOTER */
+footer {
+    background-color: #a4e3a4;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20rem;
+    font-size: 0.8em;
+}
+
+
