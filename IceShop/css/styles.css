@@ -1,0 +1,32 @@
+:root {
+    --color-primary: #8b008b; 
+    --color-secondary: #ff9900;
+    --color-background: #f4f4f4;
+    --color-text-dark: #333;
+    --color-text-light: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: var(--color-background);
+    color: var(--color-text-dark);
+}
+
+
+/* datos de nuestro banner principal */
+.hero-banner{
+    background-image: url('img/logo5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    color: rgb(249, 249, 249);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
